@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubTennis", "ClubTennis\ClubTennis.csproj", "{94C9D2ED-38D0-42F7-92DC-4428A20CD79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{3EEB8F0F-7ABF-4E27-9193-00AE1BEE1E1B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94C9D2ED-38D0-42F7-92DC-4428A20CD79B} = {94C9D2ED-38D0-42F7-92DC-4428A20CD79B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94C9D2ED-38D0-42F7-92DC-4428A20CD79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C9D2ED-38D0-42F7-92DC-4428A20CD79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C9D2ED-38D0-42F7-92DC-4428A20CD79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C9D2ED-38D0-42F7-92DC-4428A20CD79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEB8F0F-7ABF-4E27-9193-00AE1BEE1E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEB8F0F-7ABF-4E27-9193-00AE1BEE1E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEB8F0F-7ABF-4E27-9193-00AE1BEE1E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEB8F0F-7ABF-4E27-9193-00AE1BEE1E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48988D8A-AB13-4357-BEDC-D5DBA0D67221}
+	EndGlobalSection
+EndGlobal
